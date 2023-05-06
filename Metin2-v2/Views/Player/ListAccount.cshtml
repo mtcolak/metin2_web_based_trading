@@ -1,0 +1,104 @@
+﻿@model List<PlayerModel>
+
+<div class="AccountTable">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h6><strong>Image </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Level </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Nickname </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Gold </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Exp </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Play Time </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Alignment </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Last Play </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Horse Level </strong></h6>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>                    
+                    <td>
+                        @{
+                            if (user.job == 0)
+                            {
+                                <img class="avatar" src="https://tr-wiki.metin2.gameforge.com/images/f/f9/Erkek_sava%C5%9F%C3%A7%C4%B1_ikon.png" width="32" height="32" alt="Avatar" />
+                            }
+                            else if (user.job == 4)
+                            {
+                                <img class="avatar" src="https://tr-wiki.metin2.gameforge.com/images/0/00/Bayan_sava%C5%9F%C3%A7%C4%B1_ikon.png" alt="Avatar" />
+                            }
+                            else if (user.job == 2)
+                            {
+                                <img class="avatar" src="https://tr-wiki.metin2.gameforge.com/images/1/1e/Erkek_sura_ikon.png" alt="Avatar" />
+                            }
+                            else if (user.job == 6)
+                            {
+                                <img class="avatar" src="https://tr-wiki.metin2.gameforge.com/images/2/2b/Bayan_sura_ikon.png" alt="Avatar" />
+                            }
+                            else if (user.job == 1)
+                            {
+                                <img class="avatar" src="https://tr-wiki.metin2.gameforge.com/images/7/7d/Erkek_ninja_ikon.png" alt="Avatar" />
+                            }
+                            else if (user.job == 5)
+                            {
+                                <img class="avatar" src="https://tr-wiki.metin2.gameforge.com/images/c/c5/Bayan_ninja_ikon.png" alt="Avatar" />
+                            }
+                            else if (user.job == 3)
+                            {
+                                <img class="avatar" src="https://tr-wiki.metin2.gameforge.com/images/9/91/Erkek_%C5%9Faman_ikon.png" alt="Avatar" />
+                            }
+                            else if (user.job == 7)
+                            {
+                                <img class="avatar" src="https://tr-wiki.metin2.gameforge.com/images/e/eb/Bayan_%C5%9Faman_ikon.png" alt="Avatar" />
+                            }
+                        }
+                    </td>
+                    <td>
+                        <h6>@user.level</h6>
+                    </td>
+                    <td>
+                        <h6>@user.name</h6>
+                    </td>
+                    <td>
+                        <h6>@user.gold</h6>
+                    </td>
+                    <td>
+                        <h6>@user.exp</h6>
+                    </td>
+                    <td>
+                        <h6>@user.playtime</h6>
+                    </td>
+                    <td>
+                        <h6>@user.alignment</h6>
+                    </td>
+                    <td>
+                        <h6>@user.last_play</h6>
+                    </td>
+                    <td>
+                        <h6>@user.horse_level</h6>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

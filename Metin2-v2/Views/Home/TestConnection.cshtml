@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Test Connection";
+}
+
+<h1>Test Connection</h1>
+<input id="id" name="id" />
+<button id="testConnectionButton" type="button">Test Connection</button>
+<div id="result"></div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#testConnectionButton").on("click", async function () {
+                var playerId = $("#id").val();
+
+                $.ajax({
+                    url: "/Home/TestConnectionAsync",
+                    type: "POST",
+                    data: {
+                        id: playerId
+                    },
+                    success: function (result) {
+                        $("#result").text(result);
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        // Handle errors, e.g., show an error message.
+                        alert("Error: " + errorThrown);
+                    }
+                });
+            });
+        });
+    </script>
+}

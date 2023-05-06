@@ -1,0 +1,79 @@
+﻿@model List<ItemModel>;
+
+<div class="ItemTable">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <h6><strong>Id </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Image </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Owner </strong></h6>
+                </th>
+                @*                <th>
+                <h6><strong>Vnum </strong></h6>
+                </th>*@
+                <th>
+                    <h6><strong>Name </strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Level</strong></h6>
+                </th>
+                <th>
+                    <h6><strong>Price</strong></h6>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int i = 1;
+            }
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <h6>@i</h6>
+                    </td>
+                    <td>
+                        @{
+                            int vnum = item.vnum;
+                            if (vnum < 20000)
+                            {
+                                vnum = vnum / 10 * 10;
+                            }
+
+                            <img src="@string.Format("https://img.m2icondb.com/{0}.png", vnum.ToString("D5"))" alt="image" />
+                        }
+                    </td>
+                    <td>
+                        <h6>@item.name </h6>
+                    </td>
+                    @*                    <td>
+                <h6>@item.vnum</h6>
+                </td>*@
+                    <td>
+                        <h6>@item.locale_name</h6>
+                    </td>
+                    <td>
+                        <h6>@item.limitvalue0</h6>
+                    </td>
+                    <td>
+                        <h6>@item.price_cheque TL</h6>
+                    </td>
+                    <td>
+                        <form asp-controller="Player" asp-action="BuyItemOnShop" method="post">
+                            <div class="form-group">
+                                <input type="number" class="form-control" id="id" name="id" value="@item.id" hidden>
+                            </div>
+                            <button type="submit" class="btn btn-primary mt-2">Buy</button>
+                        </form>
+                    </td>
+                </tr>
+                i++;
+            }
+        </tbody>
+    </table>
+</div>

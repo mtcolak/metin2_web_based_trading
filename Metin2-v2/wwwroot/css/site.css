@@ -1,0 +1,233 @@
+*,
+::after,
+::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../assets/pxfuel.jpg) top center;
+    color: #fafafa;
+}
+
+.myFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    text-decoration: none;
+    display: inline-flex;
+    margin: 50px;
+    cursor: pointer;
+}
+
+header nav {
+    width: 100%;
+    height: auto;
+    z-index: 3;
+    opacity: 0.95;
+}
+
+header navbar {
+    background-color: #1f0e02;
+}
+
+    header nav ul li a:hover {
+        color: rgb(255, 229, 229);
+        transition: 1s;
+        transform: scale(1.05);
+        opacity: 0.8;
+        text-decoration: none;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: #fafafa;
+        background-color: #0a0a0a;
+        border-radius: 15px;
+        padding: 20px 40px;
+    }
+
+.charDetails {
+    margin-left: 20px;
+}
+
+.AccountTable {
+    display: block;
+    width: 70%;
+    padding: 30px;
+    margin-top: 15px;
+    margin-left: 15%;
+    text-align: center;
+    background-color: #f0d9a4;
+    color: black;
+    opacity: 0.95;
+}
+
+    .AccountTable td {
+        width: 200px;
+        height: 150px;
+    }
+
+    .AccountTable th {
+        padding: 15px;
+    }
+
+    .AccountTable tr {
+        border: 2px solid rgb(41, 41, 41);
+    }
+
+        .AccountTable tr:hover {
+            color: white;
+            background-color: rgb(0, 0, 0);
+            transition: 1s;
+            transform: scale(1.05);
+            opacity: 1;
+        }
+
+/*------------------------------------------------------------------------Item Tablosu da kopyasý fakat 1-2 deðiþiklik var.*/
+.ItemTable {
+    display: block;
+    width: 70%;
+    padding: 30px;
+    margin-top: 15px;
+    margin-left: 15%;
+    text-align: center;
+    background-color: #f0d9a4;
+    color: black;
+    opacity: 1;
+}
+
+    .ItemTable td {
+        width: 170px;
+        height: 150px;
+    }
+
+    .ItemTable th {
+        padding: 15px;
+    }
+
+    .ItemTable tr {
+        border: 2px solid rgb(41, 41, 41);
+    }
+
+        .ItemTable tr:hover {
+            color: white;
+            background-color: rgb(0, 0, 0);
+            transition: 1s;
+            transform: scale(1.05);
+            opacity: 0.8;
+        }
+
+/*------------------------------------------------------------------------UserPanelClass*/
+.UPanelClass {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    background-color: #f0d9a4;
+    color: black;
+    opacity: 0.95;
+}
+
+/*------------------------------------------------------------------------1*/
+
+.OnEnvanterItem {
+    width: 33%;
+    height: 770px;
+    border-right: 1px solid black;
+}
+
+/*------------------------------------------------------------------------2*/
+
+.OnMarketItem {
+    width: 34%;
+    height: 770px;
+    border-right: 1px solid black;
+}
+
+/*------------------------------------------------------------------------3*/
+.UserControlPanelAndMarket {
+    width: 33%;
+    height: 770px;
+    padding: 5px;
+}
+
+/*------------------------------------------------------------------------3.2*/
+.UserControlPanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+    .UserControlPanel table td {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3px 50px;
+        margin-bottom: 1px;
+        border: 1px solid black;
+        background-color: lemonchiffon;
+        cursor: pointer;
+    }
+
+/*------------------------------------------------------------------------3.3*/
+
+.CampaignItems {
+    background-color: #f0d9a4;
+    color: black;
+    border-top: 1px solid black;
+    padding: 15px;
+}
+
+    .CampaignItems table td {
+        display: block;
+        background-color: lemonchiffon;
+        width: 20vw;
+        margin-left: 5vw;
+        padding-top: 15px;
+    }
+
+    .CampaignItems table img {
+        margin-right: 40px;
+    }
+
+    .CampaignItems button {
+        margin-left: 40px;
+        width: 100px;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+/*------------------------------------------------------------------------SignIn*/
+
+.SignIn {
+    width: 60%;
+    height: 300px;
+    margin-top: 150px;
+    padding: 7vh 12vw;
+    background-color: rgba(0, 0, 0, 0.798);
+    text-align: center;
+    opacity: 0.95;
+}
+
+    .SignIn input {
+        margin-top: 5px;
+        padding: 5px;
+    }
+
+    .SignIn button {
+        margin: 10px 0;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+.SignForget span {
+    font-size: 11px;
+    margin-right: 5px;
+    cursor: pointer;
+}

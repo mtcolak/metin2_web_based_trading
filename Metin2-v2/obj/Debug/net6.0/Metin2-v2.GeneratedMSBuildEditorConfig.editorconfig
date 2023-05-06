@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Metin2_v2
+build_property.RootNamespace = Metin2_v2
+build_property.ProjectDir = C:\Users\mehme\Desktop\Metin2 Asp.Net Core 6 Web Based Trading System\Metin2-v2\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\mehme\Desktop\Metin2 Asp.Net Core 6 Web Based Trading System\Metin2-v2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Home/TestConnection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXN0Q29ubmVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Player/CharSelection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXENoYXJTZWxlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Player/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Player/ItemSelection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXEl0ZW1TZWxlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Player/ListAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXExpc3RBY2NvdW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Player/ListItems.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXExpc3RJdGVtcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Player/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxheWVyXFRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mehme/Desktop/Metin2 Asp.Net Core 6 Web Based Trading System/Metin2-v2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-r0zc3dse2d
